@@ -73,7 +73,7 @@ int main()
     send_DUPDATE_pkt("RESET");     
     PrintCmdPrompt();
 
-    //comment added in master
+    //comment added in new branch
 
     while (1) {
         Handle_UART();
