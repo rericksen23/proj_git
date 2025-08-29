@@ -73,8 +73,7 @@ int main()
     send_DUPDATE_pkt("RESET");     
     PrintCmdPrompt();
 
-    //russ modified comment1
-    //comment added in new branch only5
+    //comment added in master
 
     while (1) {
         Handle_UART();
